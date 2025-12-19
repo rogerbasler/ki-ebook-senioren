@@ -3,186 +3,775 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kostenloses eBook über Künstliche Intelligenz für Senioren in der Schweiz - einfach erklärt">
-    <title>KI einfach erklärt für Senior:innen | Kostenloses eBook</title>
+    <meta name="description" content="Lernen Sie Künstliche Intelligenz, ChatGPT und Bilderkennung kennen - einfach erklärt für Senioren in der Schweiz">
+    <title>KI-Coach für Senioren | Künstliche Intelligenz einfach erklärt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <h1>Verstehen statt fürchten: Künstliche Intelligenz einfach erklärt</h1>
-            <p class="subtitle">Ein kostenloser Leitfaden für digitale Senior:innen in der Schweiz</p>
-            <a href="ebook_ki_senioren.pdf" download class="download-button">
-                📥 eBook jetzt herunterladen (PDF)
-            </a>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">KI-Coach für Senioren</div>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#start">Start</a></li>
+                <li><a href="#was-ist-ki">Was ist KI?</a></li>
+                <li><a href="#chatgpt">ChatGPT</a></li>
+                <li><a href="#anleitung">Anleitung</a></li>
+                <li><a href="#prompten">Prompten</a></li>
+                <li><a href="#bilderkennung">Bilderkennung</a></li>
+                <li><a href="#alltag">KI im Alltag</a></li>
+                <li><a href="#tipps">Tipps</a></li>
+                <li><a href="#risiken">Risiken</a></li>
+                <li><a href="#sicherheit">Sicherheit</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#ebook">eBook</a></li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
-    <!-- About Section -->
-    <section class="about">
+    <!-- Start Section -->
+    <section id="start" class="hero">
         <div class="container">
-            <h2>Über dieses eBook</h2>
-            <p>
-                Künstliche Intelligenz ist kein Grund zur Sorge – sie ist ein nützliches Werkzeug, 
-                das Ihnen im Alltag helfen kann. In diesem kostenlosen eBook erklären wir Ihnen 
-                auf einfache und verständliche Weise, was KI ist, wie Sie ChatGPT nutzen können 
-                und wo Ihnen KI bereits heute im Schweizer Alltag begegnet.
-            </p>
-            <p>
-                Das eBook wurde speziell für Senior:innen ab 60 Jahren geschrieben – mit grosser 
-                Schrift, klaren Erklärungen und vielen praktischen Beispielen aus der Schweiz 
-                (SBB, Migros, Coop, SRF und mehr).
-            </p>
-        </div>
-    </section>
-
-    <!-- Chapters Section -->
-    <section class="chapters">
-        <div class="container">
-            <h2>Das erwartet Sie im eBook</h2>
+            <h1>Herzlich willkommen!</h1>
+            <p class="hero-subtitle">Sie möchten mehr über Künstliche Intelligenz und ChatGPT erfahren? Wunderbar! Diese Website erklärt Ihnen alles Schritt für Schritt – verständlich, sicher und ohne Fachchinesisch.</p>
             
-            <div class="chapter-grid">
-                <div class="chapter-card">
-                    <div class="chapter-icon">🤖</div>
-                    <h3>Einleitung: Was ist künstliche Intelligenz?</h3>
-                    <p>
-                        Erfahren Sie, was KI wirklich ist – ein hilfreicher Assistent, kein Ersatz 
-                        für den Menschen. Mit einfachen Beispielen aus Ihrem Alltag.
-                    </p>
-                </div>
+            <img src="assets/images/hero-welcome.png" alt="Senioren lernen gemeinsam über KI" class="hero-image">
+            
+            <div class="goal-box">
+                <h2>✓ Das Ziel dieser Website</h2>
+                <p>Wir möchten Ihnen zeigen, wie Sie moderne Technologien wie Künstliche Intelligenz und ChatGPT sicher und selbstbewusst nutzen können. Sie sind nicht zu alt für Technik – im Gegenteil! Mit der richtigen Anleitung können Sie von diesen Werkzeugen profitieren.</p>
+                <p class="highlight-green"><strong>Sie sind nicht zu alt für KI!</strong></p>
+            </div>
 
-                <div class="chapter-card">
-                    <div class="chapter-icon">💬</div>
-                    <h3>Kapitel 1: Was ist ChatGPT und wie nutze ich es?</h3>
-                    <p>
-                        Schritt-für-Schritt-Anleitung: Wie Sie mit ChatGPT sprechen, Fragen stellen 
-                        und hilfreiche Antworten erhalten. Inklusive Ideen für Ihre ersten Versuche.
-                    </p>
-                </div>
-
-                <div class="chapter-card">
-                    <div class="chapter-icon">📸</div>
-                    <h3>Kapitel 2: Was ist Bilderkennung?</h3>
-                    <p>
-                        Entdecken Sie, wie Ihr Smartphone Pflanzen, Gesichter und Text erkennen kann. 
-                        Mit praktischen Beispielen zum Ausprobieren.
-                    </p>
-                </div>
-
-                <div class="chapter-card">
-                    <div class="chapter-icon">🇨🇭</div>
-                    <h3>Kapitel 3: Wo begegnet mir KI im Alltag?</h3>
-                    <p>
-                        Von der SBB App über Gesundheits-Apps bis zum E-Banking – erfahren Sie, 
-                        wo KI Ihnen in der Schweiz bereits heute hilft.
-                    </p>
-                </div>
-
-                <div class="chapter-card">
-                    <div class="chapter-icon">💡</div>
-                    <h3>10 Tipps für den Umgang mit KI</h3>
-                    <p>
-                        Praktische Ratschläge für Ihre ersten Schritte: Wie Sie sicher und 
-                        selbstbewusst mit KI umgehen.
-                    </p>
-                </div>
-
-                <div class="chapter-card">
-                    <div class="chapter-icon">🖼️</div>
-                    <h3>5 Tipps, um KI-Bilder zu erkennen</h3>
-                    <p>
-                        Lernen Sie, woran Sie von KI erstellte Bilder erkennen können – 
-                        bleiben Sie aufmerksam und kritisch.
-                    </p>
+            <div class="testimonials">
+                <h3>Schon gewusst?</h3>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <p><strong>Maria, 72 Jahre,</strong> nutzt ChatGPT, um Briefe zu schreiben und Rezepte zu finden. Sie sagt: "Ich dachte, das wäre nichts für mich. Aber es ist wie ein kluger Nachbar, der immer eine Antwort weiss."</p>
+                    </div>
+                    <div class="testimonial">
+                        <p><strong>Hans, 68 Jahre,</strong> lässt sich von ChatGPT an seine Medikamente erinnern und nutzt es zum Planen von Ausflügen. "Es macht sogar Spass!", meint er.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
+    <!-- Was ist KI Section -->
+    <section id="was-ist-ki" class="content-section">
         <div class="container">
-            <h2>Was macht dieses eBook besonders?</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <div class="feature-icon">✅</div>
-                    <h3>Seniorenfreundlich</h3>
-                    <p>Grosse Schrift, klare Sprache, keine Fachbegriffe ohne Erklärung</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🇨🇭</div>
-                    <h3>Schweizer Kontext</h3>
-                    <p>Beispiele aus Ihrem Alltag: SBB, Migros, Coop, SRF und mehr</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">📖</div>
-                    <h3>Schritt für Schritt</h3>
-                    <p>Jedes Kapitel mit praktischen «So probieren Sie es aus»-Anleitungen</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🎨</div>
-                    <h3>Viele Bilder</h3>
-                    <p>Infografiken und Screenshots helfen beim Verstehen</p>
+            <h2>Was ist Künstliche Intelligenz?</h2>
+            
+            <h3>Einfach erklärt</h3>
+            <p>Künstliche Intelligenz – kurz <strong>KI</strong> genannt – ist eine besondere Technologie. Sie ermöglicht es Computern und Programmen, selbstständig zu lernen und Aufgaben zu lösen, die normalerweise menschliches Denken erfordern.</p>
+            <p>Stellen Sie sich vor: KI ist wie ein kluger Nachbar, der immer eine Antwort weiss. Er kann Ihnen helfen, Informationen zu finden, Texte zu schreiben oder Fragen zu beantworten.</p>
+            <p>Die KI lernt aus riesigen Mengen an Informationen – ähnlich wie wir Menschen aus Erfahrungen lernen. Je mehr Daten sie bekommt, desto besser wird sie.</p>
+
+            <img src="assets/images/infographic-was-ist-ki.png" alt="Was ist KI - Infografik" class="content-image">
+
+            <h3>KI im Alltag – Beispiele</h3>
+            <p>KI begegnet uns täglich, oft ohne dass wir es bemerken:</p>
+            <ul class="feature-list">
+                <li><strong>Suchmaschinen</strong> wie Google nutzen KI, um die besten Ergebnisse zu finden</li>
+                <li><strong>Navigationssysteme</strong> berechnen die schnellste Route für Sie</li>
+                <li><strong>Sprachassistenten</strong> wie Alexa oder Siri verstehen Ihre Fragen</li>
+                <li><strong>Übersetzungsprogramme</strong> übersetzen Texte in andere Sprachen</li>
+                <li><strong>E-Mail-Programme</strong> erkennen Spam und unerwünschte Nachrichten</li>
+                <li><strong>Staubsauger-Roboter</strong> finden selbstständig ihren Weg durch die Wohnung</li>
+                <li><strong>Moderne Kühlschränke</strong> optimieren die Temperatur automatisch</li>
+            </ul>
+
+            <div class="definition-box">
+                <h4>Wichtige Begriffe</h4>
+                <div class="definition-grid">
+                    <div class="definition-item">
+                        <h5>Künstliche Intelligenz (KI)</h5>
+                        <p>Computer und Programme, die selbstständig lernen und Aufgaben lösen können.</p>
+                    </div>
+                    <div class="definition-item">
+                        <h5>Algorithmus</h5>
+                        <p>Eine festgelegte Vorgehensweise, wie ein Computer Daten verarbeitet – wie ein Rezept zum Kochen.</p>
+                    </div>
+                    <div class="definition-item">
+                        <h5>Machine Learning (Maschinelles Lernen)</h5>
+                        <p>Computer lernen aus Erfahrungen und verbessern sich selbstständig – ähnlich wie wir Menschen.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Download CTA Section -->
-    <section class="download-cta">
+    <!-- ChatGPT Section -->
+    <section id="chatgpt" class="content-section bg-light">
         <div class="container">
-            <h2>Bereit für Ihre KI-Reise?</h2>
-            <p>Laden Sie das eBook kostenlos herunter und starten Sie noch heute!</p>
-            <a href="ebook_ki_senioren.pdf" download class="download-button">
-                📥 eBook jetzt herunterladen (PDF)
-            </a>
+            <h2>Was ist ChatGPT?</h2>
+            
+            <img src="assets/images/icon-chatgpt.png" alt="ChatGPT Icon" class="section-icon">
+
+            <h3>ChatGPT einfach erklärt</h3>
+            <p><strong>ChatGPT</strong> ist ein Computerprogramm mit Künstlicher Intelligenz. Es kann mit Ihnen wie ein Mensch sprechen – Sie stellen eine Frage, und ChatGPT antwortet.</p>
+            <p>Das Besondere: ChatGPT versteht deutsche Sprache und kann Ihnen bei vielen Dingen helfen. Es ist wie ein geduldiger Assistent, der immer Zeit für Sie hat.</p>
+            <p>ChatGPT wurde von der Firma <strong>OpenAI</strong> entwickelt und im November 2022 veröffentlicht. Millionen Menschen auf der ganzen Welt nutzen es bereits.</p>
+
+            <h3>Wie funktioniert ChatGPT?</h3>
+            <p>ChatGPT hat aus riesigen Mengen an Texten gelernt – aus Büchern, Artikeln und Websites. Dadurch kann es zu vielen Themen Antworten geben.</p>
+            <p>Sie können mit ChatGPT ganz normal schreiben, als würden Sie mit einem Menschen chatten. Stellen Sie Fragen, bitten Sie um Hilfe oder lassen Sie sich etwas erklären.</p>
+            <p class="highlight-blue"><strong>So macht Technik Spass!</strong></p>
+
+            <h3>Wozu kann ChatGPT helfen?</h3>
+            <p>ChatGPT kann Sie bei vielen Aufgaben unterstützen:</p>
+            <ul class="feature-list">
+                <li><strong>Briefe und E-Mails schreiben</strong> – Sie sagen, was Sie schreiben möchten, ChatGPT formuliert es</li>
+                <li><strong>Rezepte finden</strong> – "Gib mir ein einfaches Rezept für Apfelkuchen"</li>
+                <li><strong>Informationen suchen</strong> – "Erkläre mir, wie das Wetter entsteht"</li>
+                <li><strong>Übersetzungen</strong> – Texte in andere Sprachen übersetzen</li>
+                <li><strong>Ideen sammeln</strong> – "Was kann ich meinem Enkel zum Geburtstag schenken?"</li>
+                <li><strong>Erinnerungen</strong> – Listen erstellen, z.B. für Einkäufe oder Termine</li>
+                <li><strong>Unterhaltung</strong> – Witze erzählen lassen oder Gedichte schreiben</li>
+            </ul>
         </div>
     </section>
 
-    <!-- For Relatives Section -->
-    <section class="relatives">
+    <!-- Anleitung Section -->
+    <section id="anleitung" class="content-section">
         <div class="container">
-            <h2>Hinweis für Angehörige</h2>
-            <p>
-                Unterstützen Sie Ihre Eltern oder Grosseltern bei ihren ersten Schritten in die 
-                KI-Welt. Zeigen Sie ihnen die Funktionen auf ihrem Smartphone, machen Sie gemeinsam 
-                die ersten Versuche mit ChatGPT und haben Sie Geduld. Digitale Kompetenz ist ein 
-                Geschenk, das Selbstständigkeit und Teilhabe bis ins hohe Alter ermöglicht.
-            </p>
+            <h2>So nutzen Sie ChatGPT – Schritt für Schritt</h2>
+            
+            <div class="info-box">
+                <h3>Wichtig zu wissen</h3>
+                <p>ChatGPT ist <strong>kostenlos</strong> nutzbar! Sie brauchen nur:</p>
+                <ul>
+                    <li>Einen Computer, ein Tablet oder ein Smartphone</li>
+                    <li>Eine Internetverbindung</li>
+                    <li>Eine E-Mail-Adresse</li>
+                    <li>Eine Telefonnummer (für die Anmeldung)</li>
+                </ul>
+            </div>
+
+            <img src="assets/images/infographic-chatgpt-nutzen.png" alt="Wie nutze ich ChatGPT - Infografik" class="content-image">
+
+            <div class="steps">
+                <div class="step">
+                    <h3>Schritt 1: Anmeldung erstellen</h3>
+                    <ol>
+                        <li>Öffnen Sie Ihren Internet-Browser (Chrome, Firefox, Safari oder Edge)</li>
+                        <li>Geben Sie diese Adresse ein: <a href="https://chatgpt.com/" target="_blank" rel="noopener">https://chatgpt.com/</a></li>
+                        <li>Klicken Sie auf den Button <strong>"Sign up"</strong> (Anmelden)</li>
+                        <li>Geben Sie Ihre E-Mail-Adresse ein</li>
+                        <li>Wählen Sie ein Passwort (mindestens 8 Zeichen)</li>
+                        <li>Geben Sie Ihre Telefonnummer ein</li>
+                        <li>Sie bekommen eine SMS mit einem Code – geben Sie diesen ein</li>
+                    </ol>
+                    <p><strong>Fertig!</strong> Die Anmeldung dauert nur 1-2 Minuten.</p>
+                </div>
+
+                <div class="step">
+                    <h3>Schritt 2: ChatGPT nutzen</h3>
+                    <ol>
+                        <li>Nach der Anmeldung sehen Sie ein Eingabefeld unten auf der Seite</li>
+                        <li>Schreiben Sie Ihre Frage hinein, z.B.: <em>"Erkläre mir, was Künstliche Intelligenz ist"</em></li>
+                        <li>Drücken Sie die Enter-Taste oder klicken Sie auf den Senden-Button</li>
+                        <li>ChatGPT antwortet Ihnen in wenigen Sekunden</li>
+                        <li>Sie können weiter Fragen stellen – wie in einem Gespräch</li>
+                    </ol>
+                </div>
+
+                <div class="step">
+                    <h3>Schritt 3: ChatGPT am Smartphone nutzen</h3>
+                    <p><strong>Für Android-Handys:</strong><br>
+                    Öffnen Sie den <strong>Google Play Store</strong> und suchen Sie nach <strong>"ChatGPT"</strong>. Laden Sie die offizielle App von OpenAI herunter.</p>
+                    <p><strong>Für iPhones (iOS):</strong><br>
+                    Öffnen Sie den <strong>App Store</strong> und suchen Sie nach <strong>"ChatGPT"</strong>. Laden Sie die offizielle App von OpenAI herunter.</p>
+                    <p class="tip">💡 <strong>Tipp:</strong> Die App hat auch eine Sprachfunktion – Sie können mit ChatGPT sprechen!</p>
+                </div>
+
+                <div class="step">
+                    <h3>Schritt 4: ChatGPT am Computer nutzen</h3>
+                    <p>Sie können ChatGPT auch als Programm auf Ihrem Computer installieren:</p>
+                    <p><strong>Für Windows und Mac:</strong> Besuchen Sie <a href="https://openai.com/chatgpt/desktop/" target="_blank" rel="noopener">https://openai.com/chatgpt/desktop/</a></p>
+                    <p>Laden Sie die Desktop-Version herunter und installieren Sie sie wie jedes andere Programm.</p>
+                    <p><strong>Vorteil:</strong> Sie können ChatGPT mit einer Tastenkombination schnell öffnen!</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact">
+    <!-- Prompten Section -->
+    <section id="prompten" class="content-section bg-light">
         <div class="container">
-            <h2>Nützliche Telefonnummern in der Schweiz</h2>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <h3>Pro Senectute Schweiz</h3>
-                    <p class="phone">☎️ 044 283 89 89</p>
-                    <p>Für allgemeine Fragen rund ums Alter</p>
+            <h2>Was ist Prompten? – So sprechen Sie mit ChatGPT</h2>
+            
+            <h3>Was bedeutet "Prompten"?</h3>
+            <p><strong>"Prompten"</strong> bedeutet, dass Sie ChatGPT eine Aufgabe oder Frage stellen. Ein "Prompt" ist also Ihre Eingabe – das, was Sie ChatGPT sagen oder fragen möchten.</p>
+            <p>Je genauer und klarer Sie Ihre Frage oder Aufgabe formulieren, desto besser wird die Antwort von ChatGPT sein. Es ist wie ein Gespräch: Wenn Sie präzise sagen, was Sie möchten, bekommt ChatGPT eine bessere Vorstellung davon, wie es Ihnen helfen kann.</p>
+            <p class="highlight-green"><strong>Gutes Prompten = Bessere Antworten!</strong></p>
+
+            <h3>10 Beispiele für gute Prompts</h3>
+            <p>Hier sind 10 praktische Beispiele, wie Sie ChatGPT nutzen können:</p>
+            
+            <div class="prompt-examples">
+                <div class="prompt-item">
+                    <h4>1. Briefe schreiben</h4>
+                    <p class="prompt-text">"Schreibe einen höflichen Brief an meine Krankenkasse, in dem ich mich über eine falsche Rechnung beschwere."</p>
                 </div>
-                <div class="contact-card">
-                    <h3>Swisscom Friends</h3>
-                    <p class="phone">☎️ 0800 800 800</p>
-                    <p>Technische Hilfe für Swisscom-Kunden</p>
+
+                <div class="prompt-item">
+                    <h4>2. Rezepte finden</h4>
+                    <p class="prompt-text">"Gib mir ein einfaches Rezept für Apfelkuchen mit wenigen Zutaten. Ich habe keinen Mixer."</p>
                 </div>
-                <div class="contact-card">
-                    <h3>UPC / Sunrise</h3>
-                    <p class="phone">☎️ 0800 707 707</p>
-                    <p>Technische Hilfe für Kunden</p>
+
+                <div class="prompt-item">
+                    <h4>3. Dinge erklären lassen</h4>
+                    <p class="prompt-text">"Erkläre mir in einfachen Worten, was Bluetooth ist und wie ich es auf meinem Handy einschalte."</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>4. Geschenkideen</h4>
+                    <p class="prompt-text">"Mein Enkel wird 12 Jahre alt und mag Fussball. Was könnte ich ihm schenken? Budget: 50 Franken."</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>5. Reiseplanung</h4>
+                    <p class="prompt-text">"Ich möchte im Frühling 3 Tage in Luzern verbringen. Was sollte ich dort unbedingt sehen?"</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>6. Texte zusammenfassen</h4>
+                    <p class="prompt-text">"Fasse diesen langen Arztbrief in 3-4 einfachen Sätzen zusammen: [Text einfügen]"</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>7. Übersetzungen</h4>
+                    <p class="prompt-text">"Übersetze diesen englischen Text auf Deutsch: [Text einfügen]"</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>8. Einkaufslisten</h4>
+                    <p class="prompt-text">"Erstelle mir eine Einkaufsliste für ein gemütliches Abendessen für 4 Personen mit Salat, Hauptgericht und Dessert."</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>9. Geräte bedienen</h4>
+                    <p class="prompt-text">"Wie stelle ich die Uhrzeit auf meiner Mikrowelle ein? Marke: [Marke nennen]"</p>
+                </div>
+
+                <div class="prompt-item">
+                    <h4>10. Gesundheitstipps</h4>
+                    <p class="prompt-text">"Welche einfachen Übungen kann ich zu Hause machen, um meinen Rücken zu stärken? Ich bin 70 Jahre alt."</p>
+                </div>
+            </div>
+
+            <div class="tips-box">
+                <h3>Tipps für bessere Prompts</h3>
+                <ul>
+                    <li><strong>Seien Sie konkret:</strong> Statt "Gib mir ein Rezept" besser "Gib mir ein Rezept für Apfelkuchen ohne Mixer"</li>
+                    <li><strong>Geben Sie Kontext:</strong> "Ich bin 70 Jahre alt" oder "Ich habe keinen Computer" hilft ChatGPT, besser zu antworten</li>
+                    <li><strong>Stellen Sie Nachfragen:</strong> Wenn die Antwort nicht passt, fragen Sie nach: "Kannst du das einfacher erklären?"</li>
+                    <li><strong>Seien Sie höflich:</strong> "Bitte" und "Danke" sind nicht nötig, aber machen das Gespräch angenehmer</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bilderkennung Section -->
+    <section id="bilderkennung" class="content-section">
+        <div class="container">
+            <h2>Was ist Bilderkennung?</h2>
+            
+            <img src="assets/images/icon-image-recognition.png" alt="Bilderkennung Icon" class="section-icon">
+
+            <h3>Ein alltägliches Beispiel</h3>
+            <p>Haben Sie sich im Garten schon einmal gefragt, wie diese wunderschöne Blume heisst? Moderne Smartphones können Ihnen dabei helfen. Das ist Bilderkennung in Aktion.</p>
+
+            <h3>Was ist Bilderkennung?</h3>
+            <p>Bilderkennung bedeutet, dass ein Computerprogramm "sehen" und verstehen kann, was auf einem Bild zu sehen ist. Die KI kann Objekte, Gesichter, Tiere, Pflanzen und sogar geschriebenen Text identifizieren.</p>
+
+            <img src="assets/images/infographic-bilderkennung.png" alt="Bilderkennung - Was kann KI sehen" class="content-image">
+
+            <h3>Praktische Anwendungen</h3>
+            <div class="application-grid">
+                <div class="application-item">
+                    <h4>🌸 Pflanzen erkennen</h4>
+                    <p>Erkennt Namen von Blumen und Bäumen in Ihrem Garten oder Park.</p>
+                    <p><strong>Beispiel:</strong> Ist das eine Rose oder ein Tulpe?</p>
+                </div>
+
+                <div class="application-item">
+                    <h4>📄 Text lesen (OCR)</h4>
+                    <p>Liest gedruckte oder geschriebene Wörter aus Büchern, Briefen oder Schildern.</p>
+                    <p><strong>Beispiel:</strong> Übersetzen Sie eine Speisekarte oder lesen Sie eine Adresse vor.</p>
+                </div>
+
+                <div class="application-item">
+                    <h4>👥 Gesichter finden</h4>
+                    <p>Findet bekannte Personen auf Ihren Fotos und hilft beim Sortieren.</p>
+                    <p><strong>Beispiel:</strong> Markiert Ihre Familie und Freunde automatisch.</p>
+                </div>
+
+                <div class="application-item">
+                    <h4>🛒 Produkte identifizieren</h4>
+                    <p>Erkennt Gegenstände im Alltag und zeigt Ihnen Informationen oder Preise.</p>
+                    <p><strong>Beispiel:</strong> Finden Sie heraus, was ein Produkt im Supermarkt kostet.</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3>So probieren Sie es aus</h3>
+                <p><strong>Auf Ihrem Smartphone:</strong></p>
+                <ol>
+                    <li>Öffnen Sie die Kamera-App</li>
+                    <li>Richten Sie die Kamera auf eine Pflanze, ein Produkt oder einen Text</li>
+                    <li>Viele moderne Smartphones zeigen automatisch Informationen an</li>
+                    <li>Oder nutzen Sie Apps wie <strong>Google Lens</strong> (kostenlos)</li>
+                </ol>
+                <p class="tip">💡 <strong>Tipp:</strong> Google Lens ist besonders einfach zu bedienen und erkennt fast alles!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KI im Alltag Section -->
+    <section id="alltag" class="content-section bg-light">
+        <div class="container">
+            <h2>Wo begegnet mir KI im Alltag?</h2>
+            
+            <p>KI ist bereits ein selbstverständlicher Teil unseres Lebens – besonders in der Schweiz. Hier sind einige Beispiele, wo Ihnen KI im Alltag begegnet:</p>
+
+            <img src="assets/images/infographic-ki-alltag-schweiz.png" alt="KI im Schweizer Alltag" class="content-image">
+
+            <div class="everyday-examples">
+                <div class="example-item">
+                    <h3>🚆 Unterwegs mit der SBB</h3>
+                    <p>Die <strong>SBB Mobile App</strong> nutzt KI, um Ihnen die beste Verbindung zu zeigen, Verspätungen vorherzusagen und alternative Routen vorzuschlagen.</p>
+                </div>
+
+                <div class="example-item">
+                    <h3>📱 Smartphone als Assistent</h3>
+                    <p>Ihr Smartphone nutzt KI für:</p>
+                    <ul>
+                        <li>Automatische Texterkennung in Fotos</li>
+                        <li>Spracherkennung (Siri, Google Assistant)</li>
+                        <li>Gesichtserkennung zum Entsperren</li>
+                        <li>Automatische Foto-Sortierung</li>
+                    </ul>
+                </div>
+
+                <div class="example-item">
+                    <h3>🏥 Gesundheit und Wohlbefinden</h3>
+                    <p>Moderne Gesundheits-Apps nutzen KI, um:</p>
+                    <ul>
+                        <li>Ihre Schritte zu zählen</li>
+                        <li>Ihren Schlaf zu überwachen</li>
+                        <li>Medikamenten-Erinnerungen zu senden</li>
+                        <li>Gesundheitstrends zu erkennen</li>
+                    </ul>
+                </div>
+
+                <div class="example-item">
+                    <h3>🛒 Sicher einkaufen</h3>
+                    <p>Online-Shops wie <strong>Migros</strong> und <strong>Coop</strong> nutzen KI, um:</p>
+                    <ul>
+                        <li>Ihnen passende Produkte vorzuschlagen</li>
+                        <li>Betrügerische Zahlungen zu erkennen</li>
+                        <li>Lieferzeiten zu optimieren</li>
+                    </ul>
+                </div>
+
+                <div class="example-item">
+                    <h3>📺 Unterhaltung</h3>
+                    <p><strong>SRF</strong> und Streaming-Dienste nutzen KI, um Ihnen Sendungen und Filme vorzuschlagen, die Ihnen gefallen könnten.</p>
+                </div>
+
+                <div class="example-item">
+                    <h3>🏦 Banking</h3>
+                    <p>Schweizer Banken nutzen KI, um:</p>
+                    <ul>
+                        <li>Verdächtige Transaktionen zu erkennen</li>
+                        <li>Sie vor Betrug zu schützen</li>
+                        <li>Ihre Fragen im Online-Banking zu beantworten</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tipps Section -->
+    <section id="tipps" class="content-section">
+        <div class="container">
+            <h2>Tipps für den Umgang mit KI</h2>
+            
+            <h3>10 Tipps für die KI-Nutzung</h3>
+            <div class="tips-grid">
+                <div class="tip-item">
+                    <h4>1. Seien Sie neugierig</h4>
+                    <p>Probieren Sie neue Funktionen aus. Es kann nichts kaputt gehen!</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>2. Sprechen Sie wie mit einem Menschen</h4>
+                    <p>Sie müssen keine komplizierten Befehle lernen. Schreiben Sie einfach, was Sie möchten.</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>3. Geben Sie klare Anweisungen</h4>
+                    <p>Je genauer Sie sagen, was Sie brauchen, desto besser wird die Antwort.</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>4. Prüfen Sie die Fakten</h4>
+                    <p>KI kann Fehler machen. Überprüfen Sie wichtige Informationen immer.</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>5. Schützen Sie Ihre Daten</h4>
+                    <p>Geben Sie niemals Passwörter, Kreditkartennummern oder persönliche Geheimnisse ein.</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>6. Nutzen Sie KI als Starthilfe</h4>
+                    <p>KI kann Ihnen helfen, einen Brief zu beginnen oder Ideen zu sammeln. Sie entscheiden, was Sie davon nutzen.</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>7. Bleiben Sie geduldig</h4>
+                    <p>Manchmal braucht es mehrere Versuche, bis die Antwort passt. Das ist normal!</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>8. Haben Sie Spass</h4>
+                    <p>Lassen Sie sich Witze erzählen, Gedichte schreiben oder Geschichten erfinden!</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>9. Fragen Sie nach dem "Warum"</h4>
+                    <p>Wenn Sie etwas nicht verstehen, fragen Sie: "Kannst du das einfacher erklären?"</p>
+                </div>
+
+                <div class="tip-item">
+                    <h4>10. Sprechen Sie darüber</h4>
+                    <p>Erzählen Sie Freunden und Familie von Ihren Erfahrungen. Lernen Sie gemeinsam!</p>
+                </div>
+            </div>
+
+            <h3 class="section-spacing">5 Tipps, um KI-Bilder zu erkennen</h3>
+            <p>KI kann mittlerweile sehr realistische Bilder erstellen. Hier sind 5 Hinweise, wie Sie KI-Bilder erkennen können:</p>
+
+            <img src="assets/images/infographic-ki-bilder-erkennen.png" alt="5 Tipps um KI-Bilder zu erkennen" class="content-image">
+
+            <div class="ai-image-tips">
+                <div class="ai-tip-item">
+                    <h4>1. Hände und Finger</h4>
+                    <p>KI hat oft Schwierigkeiten mit Händen. Achten Sie auf zu viele oder zu wenige Finger, seltsame Positionen oder unnatürliche Proportionen.</p>
+                </div>
+
+                <div class="ai-tip-item">
+                    <h4>2. Seltsame Details in den Augen</h4>
+                    <p>Schauen Sie genau hin: Sind die Augen symmetrisch? Haben sie realistische Reflexionen? KI-Augen wirken manchmal "leer" oder unnatürlich.</p>
+                </div>
+
+                <div class="ai-tip-item">
+                    <h4>3. Unlesbarer Text</h4>
+                    <p>Text auf Schildern, Büchern oder Zeitungen ist bei KI-Bildern oft unleserlich oder ergibt keinen Sinn.</p>
+                </div>
+
+                <div class="ai-tip-item">
+                    <h4>4. Merkwürdige Muster</h4>
+                    <p>Hintergründe, Kleidung oder Texturen haben manchmal seltsame, sich wiederholende Muster, die nicht natürlich wirken.</p>
+                </div>
+
+                <div class="ai-tip-item">
+                    <h4>5. Falsche Schatten</h4>
+                    <p>Schatten passen nicht zur Lichtquelle oder fehlen ganz. Auch Spiegelungen können unrealistisch sein.</p>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h4>⚠️ Wichtig:</h4>
+                <p>KI-Bilder werden immer besser. Diese Tipps helfen, sind aber nicht immer zuverlässig. Im Zweifelsfall: Fragen Sie nach der Quelle des Bildes!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risiken Section -->
+    <section id="risiken" class="content-section bg-light">
+        <div class="container">
+            <h2>Welche Risiken gibt es?</h2>
+            
+            <p>KI ist ein wunderbares Werkzeug, aber wie bei allem im Leben gibt es auch Risiken. Hier sind die wichtigsten Dinge, die Sie wissen sollten:</p>
+
+            <div class="risk-grid">
+                <div class="risk-item">
+                    <h3>1. Fehlinformationen</h3>
+                    <p>KI kann sich irren oder veraltete Informationen geben. Prüfen Sie wichtige Fakten immer nach!</p>
+                    <p class="example">Beispiel: Medizinische Ratschläge sollten Sie immer mit Ihrem Arzt besprechen.</p>
+                </div>
+
+                <div class="risk-item">
+                    <h3>2. Datenschutz</h3>
+                    <p>Alles, was Sie ChatGPT erzählen, wird gespeichert. Geben Sie niemals persönliche Geheimnisse, Passwörter oder Bankdaten ein.</p>
+                    <p class="example">Beispiel: Statt "Mein Passwort ist 12345" schreiben Sie "Ich brauche Hilfe, ein sicheres Passwort zu erstellen".</p>
+                </div>
+
+                <div class="risk-item">
+                    <h3>3. Abhängigkeit</h3>
+                    <p>KI soll Ihnen helfen, nicht Ihre Entscheidungen übernehmen. Nutzen Sie KI als Werkzeug, nicht als Ersatz für Ihr eigenes Denken.</p>
+                    <p class="example">Beispiel: Lassen Sie ChatGPT einen Brief-Entwurf schreiben, aber lesen und ändern Sie ihn selbst.</p>
+                </div>
+
+                <div class="risk-item">
+                    <h3>4. Betrug und Fälschungen</h3>
+                    <p>Betrüger nutzen KI, um gefälschte E-Mails, Bilder oder Stimmen zu erstellen. Seien Sie vorsichtig!</p>
+                    <p class="example">Beispiel: Wenn Sie eine E-Mail von Ihrer Bank bekommen, rufen Sie lieber direkt an, statt auf Links zu klicken.</p>
+                </div>
+
+                <div class="risk-item">
+                    <h3>5. Vorurteile</h3>
+                    <p>KI lernt aus Daten, die von Menschen erstellt wurden. Manchmal übernimmt sie dabei auch Vorurteile.</p>
+                    <p class="example">Beispiel: KI könnte stereotype Antworten geben. Hinterfragen Sie kritisch!</p>
+                </div>
+            </div>
+
+            <div class="danger-box">
+                <h3>❌ Was sollten Sie NICHT tun?</h3>
+                <ul>
+                    <li>Geben Sie <strong>niemals</strong> Passwörter, PINs oder Kreditkartennummern ein</li>
+                    <li>Teilen Sie <strong>keine</strong> sehr persönlichen oder intimen Informationen</li>
+                    <li>Vertrauen Sie <strong>nicht blind</strong> auf medizinische oder rechtliche Ratschläge</li>
+                    <li>Klicken Sie <strong>nicht</strong> auf verdächtige Links, auch wenn KI sie vorschlägt</li>
+                    <li>Nutzen Sie KI <strong>nicht</strong> für wichtige finanzielle Entscheidungen ohne Rücksprache</li>
+                </ul>
+            </div>
+
+            <div class="important-rule">
+                <h3>✓ Wichtige Regel</h3>
+                <p><strong>Wenn Sie sich unsicher fühlen, fragen Sie jemanden, dem Sie vertrauen!</strong> Ihre Familie, Freunde oder eine Beratungsstelle helfen Ihnen gerne weiter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sicherheit Section -->
+    <section id="sicherheit" class="content-section">
+        <div class="container">
+            <h2>So bleiben Sie sicher</h2>
+            
+            <img src="assets/images/icon-security.png" alt="Sicherheit Icon" class="section-icon">
+
+            <p>Sicherheit im Internet ist wichtig – aber keine Sorge, mit ein paar einfachen Regeln sind Sie gut geschützt!</p>
+
+            <div class="security-tips">
+                <div class="security-item">
+                    <h3>🔐 Starke Passwörter nutzen</h3>
+                    <p>Ein gutes Passwort ist:</p>
+                    <ul>
+                        <li>Mindestens 12 Zeichen lang</li>
+                        <li>Eine Mischung aus Buchstaben, Zahlen und Sonderzeichen</li>
+                        <li>Nicht leicht zu erraten (kein "12345" oder "Passwort")</li>
+                        <li>Für jeden Dienst unterschiedlich</li>
+                    </ul>
+                    <p class="tip">💡 <strong>Tipp:</strong> Nutzen Sie einen Passwort-Manager wie <a href="https://proton.me/pass" target="_blank" rel="noopener">Proton Pass</a> (kostenlos). Er merkt sich alle Passwörter für Sie!</p>
+                </div>
+
+                <div class="security-item">
+                    <h3>🔒 Zwei-Faktor-Authentifizierung</h3>
+                    <p>Das ist wie ein doppeltes Schloss für Ihre Konten. Selbst wenn jemand Ihr Passwort kennt, braucht er noch einen zweiten Code (z.B. per SMS).</p>
+                    <p><strong>So aktivieren Sie es:</strong></p>
+                    <ol>
+                        <li>Gehen Sie in die Einstellungen Ihres Kontos (z.B. ChatGPT, E-Mail)</li>
+                        <li>Suchen Sie nach "Sicherheit" oder "Zwei-Faktor-Authentifizierung"</li>
+                        <li>Folgen Sie den Anweisungen</li>
+                    </ol>
+                </div>
+
+                <div class="security-item">
+                    <h3>⚠️ Vorsicht bei Links und E-Mails</h3>
+                    <p>Betrüger verschicken gefälschte E-Mails, die echt aussehen. So erkennen Sie Betrug:</p>
+                    <ul>
+                        <li>Prüfen Sie die Absender-Adresse genau</li>
+                        <li>Echte Banken fragen niemals nach Passwörtern per E-Mail</li>
+                        <li>Bei Unsicherheit: Rufen Sie direkt an (Nummer aus dem Telefonbuch, nicht aus der E-Mail!)</li>
+                        <li>Klicken Sie nicht auf Links in verdächtigen E-Mails</li>
+                    </ul>
+                </div>
+
+                <div class="security-item">
+                    <h3>🛡️ Software aktuell halten</h3>
+                    <p>Updates schliessen Sicherheitslücken. Aktivieren Sie automatische Updates auf:</p>
+                    <ul>
+                        <li>Ihrem Computer</li>
+                        <li>Ihrem Smartphone</li>
+                        <li>Ihrem Browser</li>
+                        <li>Allen Apps</li>
+                    </ul>
+                </div>
+
+                <div class="security-item">
+                    <h3>👥 Vorsicht in sozialen Medien</h3>
+                    <p>Teilen Sie nicht zu viel Persönliches:</p>
+                    <ul>
+                        <li>Keine Urlaubspläne (Einbrecher lesen mit!)</li>
+                        <li>Keine Adresse oder Telefonnummer öffentlich</li>
+                        <li>Vorsicht bei Freundschaftsanfragen von Unbekannten</li>
+                    </ul>
+                </div>
+
+                <div class="security-item">
+                    <h3>📞 Hilfe holen</h3>
+                    <p>Wenn Sie sich unsicher fühlen oder Opfer von Betrug wurden:</p>
+                    <ul>
+                        <li><strong>Polizei:</strong> 117 (bei akutem Betrug)</li>
+                        <li><strong>Pro Senectute:</strong> 044 283 89 89 (Beratung)</li>
+                        <li><strong>Swisscom Friends:</strong> 0800 800 800 (Technik-Hilfe)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <h3>✓ Sie schaffen das!</h3>
+                <p>Sicherheit im Internet ist kein Hexenwerk. Mit diesen einfachen Regeln sind Sie gut geschützt. Und denken Sie daran: Es ist nie zu spät, etwas Neues zu lernen!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="content-section bg-light">
+        <div class="container">
+            <h2>Häufig gestellte Fragen (FAQ)</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Ist ChatGPT wirklich kostenlos?</h3>
+                    <p>Ja! Die Grundversion von ChatGPT ist völlig kostenlos. Es gibt auch eine kostenpflichtige Version (ChatGPT Plus) mit zusätzlichen Funktionen, aber die brauchen Sie am Anfang nicht.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Kann ich ChatGPT auch ohne Smartphone nutzen?</h3>
+                    <p>Ja! Sie können ChatGPT auf jedem Computer mit Internetbrowser nutzen. Gehen Sie einfach auf <a href="https://chatgpt.com/" target="_blank" rel="noopener">https://chatgpt.com/</a></p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Versteht ChatGPT Schweizerdeutsch?</h3>
+                    <p>ChatGPT versteht Hochdeutsch am besten. Schweizerdeutsch versteht es teilweise, aber die Antworten sind oft nicht so gut. Schreiben Sie am besten auf Hochdeutsch.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Was passiert mit meinen Daten?</h3>
+                    <p>Ihre Gespräche mit ChatGPT werden gespeichert, um die KI zu verbessern. Geben Sie deshalb niemals persönliche Geheimnisse, Passwörter oder Bankdaten ein. Sie können Ihre Gespräche in den Einstellungen löschen.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Kann ich ChatGPT vertrauen?</h3>
+                    <p>ChatGPT ist ein Werkzeug, kein Experte. Es kann Fehler machen oder veraltete Informationen geben. Prüfen Sie wichtige Informationen immer nach – besonders bei Gesundheit, Finanzen oder Rechtsfragen.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Brauche ich technische Kenntnisse?</h3>
+                    <p>Nein! Wenn Sie eine E-Mail schreiben oder im Internet surfen können, können Sie auch ChatGPT nutzen. Es ist ganz einfach: Frage stellen, Antwort lesen, fertig!</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Was ist, wenn ich etwas nicht verstehe?</h3>
+                    <p>Fragen Sie einfach nach! ChatGPT kann Dinge einfacher erklären. Schreiben Sie: "Kannst du das in einfacheren Worten erklären?" oder "Ich verstehe das nicht, kannst du ein Beispiel geben?"</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Kann ChatGPT meine Hausaufgaben machen?</h3>
+                    <p>ChatGPT kann helfen, aber nicht alles für Sie erledigen. Nutzen Sie es als Lernhilfe, nicht als Abkürzung. Beim Lernen geht es darum, selbst zu verstehen!</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Wo finde ich Hilfe, wenn ich nicht weiterkomme?</h3>
+                    <p>Fragen Sie Familie oder Freunde! Oder rufen Sie an:</p>
+                    <ul>
+                        <li><strong>Pro Senectute:</strong> 044 283 89 89</li>
+                        <li><strong>Swisscom Friends:</strong> 0800 800 800</li>
+                        <li><strong>UPC/Sunrise:</strong> 0800 707 707</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Ersetzt KI menschliche Kontakte?</h3>
+                    <p>Nein! KI ist ein Werkzeug, kein Ersatz für echte Menschen. Gespräche mit Familie und Freunden sind durch nichts zu ersetzen. KI kann helfen, aber nicht das Wichtigste im Leben ersetzen: menschliche Nähe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- eBook Section -->
+    <section id="ebook" class="content-section">
+        <div class="container">
+            <h2>Kostenloses eBook herunterladen</h2>
+            
+            <div class="ebook-section">
+                <img src="assets/images/cover.png" alt="eBook Cover" class="ebook-cover">
+                
+                <div class="ebook-content">
+                    <h3>Einfach erklärt: Künstliche Intelligenz, ChatGPT und Bilderkennung für Senior:Innen</h3>
+                    <p>Laden Sie sich unser kostenloses eBook herunter! Es enthält alle Informationen dieser Website in einem praktischen PDF-Format zum Ausdrucken oder Offline-Lesen.</p>
+                    
+                    <div class="ebook-features">
+                        <h4>Was ist im eBook enthalten?</h4>
+                        <ul>
+                            <li>✓ Alle Kapitel dieser Website</li>
+                            <li>✓ 5 professionelle Infografiken</li>
+                            <li>✓ Schritt-für-Schritt-Anleitungen</li>
+                            <li>✓ 10 Tipps für KI-Nutzung</li>
+                            <li>✓ 5 Tipps zum Erkennen von KI-Bildern</li>
+                            <li>✓ Schweizer Telefonnummern für Hilfe</li>
+                            <li>✓ 14 Seiten, grosse Schrift, einfach zu lesen</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="ebook_ki_senioren.pdf" download class="download-button">📥 eBook kostenlos herunterladen (PDF, 28 MB)</a>
+                    
+                    <p class="ebook-note">Das eBook ist völlig kostenlos und kann beliebig oft heruntergeladen und weitergegeben werden.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>© 2024 Roger Basler de Roca | Erstellt mit ❤️ für digitale Senior:innen in der Schweiz</p>
-            <p class="small">Dieses eBook ist kostenlos und darf gerne weitergegeben werden.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Über diese Website</h3>
+                    <p>Diese Website wurde erstellt, um Senioren in der Schweiz den Einstieg in die Welt der Künstlichen Intelligenz zu erleichtern.</p>
+                    <p><strong>Autor:</strong> Roger Basler de Roca</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Nützliche Telefonnummern</h3>
+                    <ul class="phone-list">
+                        <li><strong>Pro Senectute:</strong> 044 283 89 89</li>
+                        <li><strong>Swisscom Friends:</strong> 0800 800 800</li>
+                        <li><strong>UPC/Sunrise:</strong> 0800 707 707</li>
+                        <li><strong>Polizei (Notfall):</strong> 117</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Wichtige Links</h3>
+                    <ul class="link-list">
+                        <li><a href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a></li>
+                        <li><a href="https://proton.me/pass" target="_blank" rel="noopener">Proton Pass (Passwort-Manager)</a></li>
+                        <li><a href="https://www.prosenectute.ch/" target="_blank" rel="noopener">Pro Senectute</a></li>
+                        <li><a href="https://www.rogerbasler.ch" target="_blank" rel="noopener">www.rogerbasler.ch</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Hinweis für Angehörige</h3>
+                    <p>Helfen Sie Ihren Eltern oder Grosseltern beim Einstieg! Nehmen Sie sich Zeit, erklären Sie geduldig und feiern Sie kleine Erfolge. Gemeinsam lernen macht mehr Spass!</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Roger Basler de Roca | Alle Rechte vorbehalten</p>
+                <p>Kontakt: <a href="tel:+41784476811">+41 78 447 68 11</a> | <a href="https://www.rogerbasler.ch" target="_blank" rel="noopener">www.rogerbasler.ch</a></p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
